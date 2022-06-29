@@ -23,13 +23,13 @@ function Nav() {
     return(
         <header data-testid="header" className="flex-row px-1">
       <h2>
-        <a href="/">
+        <a href="/" data-testid="link">
           <span role="img" aria-label="camera"> 📸</span> Oh Snap!
         </a>
       </h2>
       <nav>
         <ul className="flex-row">
-          <li className="mx-2">
+          <li className="mx-2" data-testid="about">
             <a href="#about" onClick={() => categorySelected('About')}>
               About me
             </a>

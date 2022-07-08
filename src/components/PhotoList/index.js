@@ -108,7 +108,7 @@ const PhotoList = ({category}) => {
   const currentPhotos = photos.filter((photo) => photo.category === category)
   return (
     <div>
-      {isModalOpen && <Modal currentPhoto={currentPhoto} />}w
+      {isModalOpen && <Modal currentPhoto={currentPhoto} />}
         <div className="flex-row">
         {currentPhotos.map((image, i) => (
           <img

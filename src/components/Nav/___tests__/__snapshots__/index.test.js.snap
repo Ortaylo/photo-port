@@ -4,7 +4,6 @@ exports[`Nav component matches snapshot DOM node structure 1`] = `
 <DocumentFragment>
   <header
     class="flex-row px-1"
-    data-testid="header"
   >
     <h2>
       <a
@@ -26,47 +25,26 @@ exports[`Nav component matches snapshot DOM node structure 1`] = `
       >
         <li
           class="mx-2"
-          data-testid="about"
         >
           <a
+            data-testid="about"
             href="#about"
           >
             About me
           </a>
         </li>
         <li
-          class="mx-2"
+          class="mx-2 undefined"
         >
           <span>
             Contact
           </span>
         </li>
         <li
-          class="mx-1"
+          class="mx-1 false"
         >
           <span>
-            commercial
-          </span>
-        </li>
-        <li
-          class="mx-1"
-        >
-          <span>
-            portraits
-          </span>
-        </li>
-        <li
-          class="mx-1"
-        >
-          <span>
-            food
-          </span>
-        </li>
-        <li
-          class="mx-1"
-        >
-          <span>
-            landscape
+            Portraits
           </span>
         </li>
       </ul>

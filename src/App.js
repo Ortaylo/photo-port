@@ -29,8 +29,8 @@ function App() {
         <div>
           {!contactSelected ? (
             <>
-          <About></About>
           <Gallery currentCategory={currentCategory}></Gallery>
+          <About></About>
             </>
           ) : (
             <ContactForm></ContactForm>
